@@ -1,0 +1,57 @@
+=====================================================
+ EzebladerTool - INSTRUCCIONES
+=====================================================
+
+QUE HACE
+--------
+Este programa mira la pantalla todo el tiempo. En el momento
+que detecta la imagen "boton.png" en algún lugar de la pantalla,
+clickea ahi solo, sin que vos hagas nada mas.
+
+
+ARCHIVOS QUE TIENEN QUE ESTAR JUNTOS EN ESTA CARPETA
+-----------------------------------------------------
+- EzebladerTool.py  -> el programa
+- boton.png         -> la imagen del boton que hay que detectar
+- instrucciones.txt -> este archivo
+
+
+ INSTALAR LO NECESARIO (una sola vez)
+---------------------------------------------
+1. Click derecho en un espacio vacio dentro de esta carpeta
+2. En la barra de direcciones de arriba, borrar el texto y escribir: cmd
+3. Enter (se abre una ventana negra ya parada en esta carpeta)
+4. Escribir y Enter:
+
+   py -m pip install pyautogui opencv-python pillow numpy
+
+   Si dice "no se reconoce", probar con "python" en vez de "py".
+
+
+ EJECUTAR EL PROGRAMA
+------------------------------
+1. Abrir el juego/app y dejarlo visible en pantalla
+2. Abrir la terminal en esta carpeta (como en el paso 1)
+3. Escribir y Enter:
+
+   py EzebladerTool.py
+
+4. Listo. A partir de aca no hay que tocar nada mas: podes
+   soltar el mouse y hacer otra cosa. El programa queda
+   buscando el boton solo, en segundo plano.
+
+
+COMO DETENERLO
+----------------
+- Llevar el mouse a la esquina superior izquierda de la pantalla
+  (0,0). Esto corta el programa automaticamente (es una funcion
+  de seguridad).
+- O bien, parado en la ventana de la terminal: Ctrl + C
+
+
+IMPORTANTE
+------------
+Si el boton es de un juego con matchmaking/cola competitiva,
+revisar las reglas de ese juego antes de dejar el auto-clicker
+corriendo: algunos juegos prohiben el uso de bots o herramientas
+de automatizacion, aunque sea para algo tan simple como esto.
