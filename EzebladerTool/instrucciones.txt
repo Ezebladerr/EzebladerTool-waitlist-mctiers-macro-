@@ -49,9 +49,3 @@ COMO DETENERLO
 - O bien, parado en la ventana de la terminal: Ctrl + C
 
 
-IMPORTANTE
-------------
-Si el boton es de un juego con matchmaking/cola competitiva,
-revisar las reglas de ese juego antes de dejar el auto-clicker
-corriendo: algunos juegos prohiben el uso de bots o herramientas
-de automatizacion, aunque sea para algo tan simple como esto.
